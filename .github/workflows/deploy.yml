@@ -18,7 +18,7 @@ jobs:
         env:
           DEPLOY: ${{ secrets.DEPLOY }}
         run: |
-          curl -X POST "https://forge.laravel.com/servers/715479/sites/2093255/deploy/http?token=QxFhI8dfxkkBkvlEVPmu4xXkR2bEcUOowwmSTG3R" \
+          curl -X POST "https://forge.laravel.com/servers/715479/sites/2093528/deploy/http?token=Sx5SPZAaHPnOggjYHty7xmgAAIGcsThC7Bj6IJr2" \
           -H "Authorization: Bearer $DEPLOY"
 
 
