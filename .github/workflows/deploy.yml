@@ -1,0 +1,25 @@
+name: Forge Deploy
+
+on:
+  push:
+    branches:
+      - master # Adjust this to your main branch name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Trigger Forge Deployment
+        if: contains(github.event.head_commit.message, 'forge deploy')
+        env:
+          DEPLOY: ${{ secrets.DEPLOY }}
+        run: |
+          curl -X POST "https://forge.laravel.com/servers/715479/sites/2093255/deploy/http?token=QxFhI8dfxkkBkvlEVPmu4xXkR2bEcUOowwmSTG3R" \
+          -H "Authorization: Bearer $DEPLOY"
+
+
+
