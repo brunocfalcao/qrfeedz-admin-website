@@ -12,6 +12,5 @@
 auth.json
 /packages/*
 /public/*
-/storage/*
 composer.forge.json
 deploy.bat
