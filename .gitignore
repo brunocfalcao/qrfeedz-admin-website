@@ -11,6 +11,5 @@
 .phpunit.result.cache
 auth.json
 /packages/*
-/public/*
 composer.forge.json
 deploy.bat
