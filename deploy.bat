@@ -31,7 +31,7 @@ timeout /t 2 /nobreak
 :: Step 4
 echo "Step 4: Committing and pushing to remote repo"
 git add -A
-git commit -m "forge deploy"
+git commit -m "[Ploi Release]"
 git push
 if errorlevel 1 goto :error
 
