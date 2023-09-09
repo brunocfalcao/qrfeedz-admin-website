@@ -1,25 +1,23 @@
-name: Forge Deploy
+name: 'Deploy if message contains'
 
 on:
   push:
     branches:
-      - master # Adjust this to your main branch name
+      - master
 
 jobs:
-  deploy:
+  ploi-deploy:
+    name: 'Ploi Deploy'
     runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, '[Ploi Release]')"
 
     steps:
-      - name: Checkout code
+      # Checkout the repository to the GitHub Actions runner
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Trigger Forge Deployment
-        if: contains(github.event.head_commit.message, 'forge deploy')
-        env:
-          DEPLOY: ${{ secrets.DEPLOY }}
-        run: |
-          curl -X POST "https://forge.laravel.com/servers/715479/sites/2093528/deploy/http?token=Sx5SPZAaHPnOggjYHty7xmgAAIGcsThC7Bj6IJr2" \
-          -H "Authorization: Bearer $DEPLOY"
-
-
-
+      # Trigger Ploi deploy webhook
+      - name: Deploy
+        uses: Glennmen/ploi-deploy-action@v1.2.0
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
