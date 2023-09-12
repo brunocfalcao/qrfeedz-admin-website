@@ -161,13 +161,14 @@ return [
     | the absolute path to an SVG logo within the local filesystem.
     |
     */
+
     'brand' => [
-        'logo' => resource_path('/qrfeedz-admin/assets/logo.svg'),
+        'logo' => resource_path('/qrfeedz-admin/assets/'.env('NOVA_LOGO_FILENAME')),
 
         'colors' => [
-            '400' => '163, 230, 53, 0.5',
-            '500' => '34, 197, 94',
-            '600' => '22, 163, 74, 0.75',
+            '400' => env('NOVA_COLOR_400'),
+            '500' => env('NOVA_COLOR_500'),
+            '600' => env('NOVA_COLOR_600'),
         ],
     ],
 
