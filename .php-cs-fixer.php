@@ -25,7 +25,7 @@ $jubekiConfig = (new Jubeki\LaravelCodeStyle\Config())
 
 $myConfig = new PhpCsFixer\Config();
 $myConfig->registerCustomFixers([
-    new LaravelPhpdocAlignmentFixer()
+    new LaravelPhpdocAlignmentFixer(),
 ]);
 
 $myConfig->setRiskyAllowed(true);
@@ -33,6 +33,7 @@ $myConfig->setRiskyAllowed(true);
 $myConfig->setRules(array_merge(
     $jubekiConfig->getRules(),
     [
+        'Laravel/laravel_phpdoc_alignment' => true,
         'single_quote' => true,
         'ordered_traits' => true,
         'ordered_imports' => true,
