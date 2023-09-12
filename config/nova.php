@@ -161,16 +161,15 @@ return [
     | the absolute path to an SVG logo within the local filesystem.
     |
     */
+    'brand' => [
+        'logo' => resource_path('/qrfeedz-admin/assets/logo.svg'),
 
-    // 'brand' => [
-    //     'logo' => resource_path('/img/example-logo.svg'),
-
-    //     'colors' => [
-    //         "400" => "24, 182, 155, 0.5",
-    //         "500" => "24, 182, 155",
-    //         "600" => "24, 182, 155, 0.75",
-    //     ]
-    // ],
+        'colors' => [
+            '400' => '163, 230, 53, 0.5',
+            '500' => '34, 197, 94',
+            '600' => '22, 163, 74, 0.75',
+        ],
+    ],
 
     /*
     |--------------------------------------------------------------------------
