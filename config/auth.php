@@ -41,6 +41,11 @@ return [
             'provider' => 'users',
         ],
 
+        'nova' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+
         'backend' => [
             'driver' => 'session',
             'provider' => 'users',
