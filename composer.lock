@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/qrfeedz-cube.git",
-                "reference": "00cbc4a3239f5d1bf9c6b02e4b153e50af5b23ca"
+                "reference": "c41f2d9969d9c4ed62ba2da4140dfa8817a674c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-cube/zipball/00cbc4a3239f5d1bf9c6b02e4b153e50af5b23ca",
-                "reference": "00cbc4a3239f5d1bf9c6b02e4b153e50af5b23ca",
+                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-cube/zipball/c41f2d9969d9c4ed62ba2da4140dfa8817a674c3",
+                "reference": "c41f2d9969d9c4ed62ba2da4140dfa8817a674c3",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "issues": "https://github.com/brunocfalcao/qrfeedz-cube/issues",
                 "source": "https://github.com/brunocfalcao/qrfeedz-cube/tree/master"
             },
-            "time": "2023-09-25T21:38:02+00:00"
+            "time": "2023-09-25T21:40:14+00:00"
         },
         {
             "name": "brunocfalcao/qrfeedz-foundation",
