@@ -8,24 +8,44 @@
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "path",
+            "url": "packages/qrfeedz/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/brunocfalcao/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/laravel/*",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
-        "php": "^8.1",
         "brunocfalcao/qrfeedz-admin": "dev-master",
-        "guzzlehttp/guzzle": "^7.2",
         "http-interop/http-factory-guzzle": "^1.2",
         "laravel/framework": "^10.10",
+        "guzzlehttp/guzzle": "^7.2",
         "laravel/nova": "^4.27",
-        "laravel/scout": "^10.3",
-        "meilisearch/meilisearch-php": "^1.3"
+        "php": "^8.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "jubeki/laravel-code-style": "^2.0",
+        "laravel/pint": "^1.13",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-        "pestphp/pest": "^2.0",
-        "pestphp/pest-plugin-laravel": "^2.0",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -41,6 +61,8 @@
         }
     },
     "scripts": {
+        "check-style": "php-cs-fixer fix --dry-run --diff",
+        "fix-style": "php-cs-fixer fix",
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -57,7 +79,9 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+                "laravel/telescope"
+            ]
         }
     },
     "config": {
