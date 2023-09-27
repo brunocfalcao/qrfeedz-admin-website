@@ -16,7 +16,7 @@ class FieldServiceProvider extends ServiceProvider
             Nova::style('nova-address-finder', __DIR__.'/../dist/css/field.css');
 
             Nova::provideToScript([
-                'googleMapsApiKey' => config('services.address_finder.google_maps_key'),
+                'googleMapsApiKey' => config('nova.google_api_key'),
             ]);
 
             // Define your routes here

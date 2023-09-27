@@ -23,6 +23,10 @@ return [
 
     'license_key' => env('NOVA_LICENSE_KEY'),
 
+    /**
+     * The Google API key used on the google maps.
+     */
+    'google_api_key' => env('GOOGLE_API_KEY'),
     /*
     |--------------------------------------------------------------------------
     | Nova App Name

@@ -39,13 +39,14 @@
         }
     ],
     "require": {
+        "php": "^8.1",
+        "brunocfalcao/nova-address-finder": "@dev",
         "brunocfalcao/qrfeedz-admin": "dev-master",
+        "guzzlehttp/guzzle": "^7.2",
         "http-interop/http-factory-guzzle": "^1.2",
         "laravel/framework": "^10.10",
-        "guzzlehttp/guzzle": "^7.2",
         "laravel/nova": "^4.27",
-        "php": "^8.1",
-        "brunocfalcao/nova-address-finder": "@dev"
+        "trinityrank/google-map-with-autocomplete": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

@@ -37,62 +37,24 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {
     var _this = this;
-    var googleMapsScript = document.createElement('script');
-    googleMapsScript.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD6nqxNAUlbJR8-N3GHqaBNbMANgjFMSXk&libraries=places&callback=initMap";
-    googleMapsScript.async = true;
-    document.head.appendChild(googleMapsScript);
-    googleMapsScript.onload = function () {
-      var map = new google.maps.Map(document.getElementById("map"), {
-        center: {
-          lat: -33.8688,
-          lng: 151.2195
-        },
-        zoom: 13,
-        mapTypeId: "roadmap"
+    var apiKey = Nova.config('googleMapsApiKey');
+    this.loadGoogleMapsScript(apiKey).then(function () {
+      _this.initMap();
+    });
+  },
+  methods: {
+    loadGoogleMapsScript: function loadGoogleMapsScript(apiKey) {
+      return new Promise(function (resolve) {
+        var script = document.createElement('script');
+        script.src = "https://maps.googleapis.com/maps/api/js?key=".concat(apiKey, "&libraries=places");
+        script.onload = resolve;
+        document.head.appendChild(script);
       });
-      var input = document.getElementById("pac-input");
-      var searchBox = new google.maps.places.SearchBox(input);
-      map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
-      map.addListener("bounds_changed", function () {
-        searchBox.setBounds(map.getBounds());
-      });
-      var markers = [];
-      searchBox.addListener("places_changed", function () {
-        var places = searchBox.getPlaces();
-        if (places.length === 0) return;
-        markers.forEach(function (marker) {
-          marker.setMap(null);
-        });
-        markers = [];
-        var bounds = new google.maps.LatLngBounds();
-        places.forEach(function (place) {
-          if (!place.geometry || !place.geometry.location) {
-            console.log("Returned place contains no geometry");
-            return;
-          }
-          var icon = {
-            url: place.icon,
-            size: new google.maps.Size(71, 71),
-            origin: new google.maps.Point(0, 0),
-            anchor: new google.maps.Point(17, 34),
-            scaledSize: new google.maps.Size(25, 25)
-          };
-          markers.push(new google.maps.Marker({
-            map: map,
-            icon: icon,
-            title: place.name,
-            position: place.geometry.location
-          }));
-          if (place.geometry.viewport) {
-            bounds.union(place.geometry.viewport);
-          } else {
-            bounds.extend(place.geometry.location);
-          }
-          _this.address = place.formatted_address;
-        });
-        map.fitBounds(bounds);
-      });
-    };
+    },
+    initMap: function initMap() {
+      // Your map initialization logic here...
+      // Adapt the provided JavaScript code to work within this Vue method
+    }
   }
 });
 
@@ -146,24 +108,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-  id: "pac-input",
-  type: "text",
-  placeholder: "Enter a location"
-}, null, -1 /* HOISTED */);
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  id: "map",
-  style: {
-    "height": "400px"
-  }
-}, null, -1 /* HOISTED */);
-var _hoisted_3 = ["name", "value"];
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"pac-card\"><input id=\"pac-input\" type=\"text\" placeholder=\"Enter a location\"></div><div id=\"map\" style=\"height:400px;\"></div><div id=\"infowindow-content\"><span id=\"place-name\"></span><span id=\"place-address\"></span></div>", 3);
+var _hoisted_4 = ["name", "value"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "hidden",
     name: $props.field.attribute,
     value: _ctx.address
-  }, null, 8 /* PROPS */, _hoisted_3)]);
+  }, null, 8 /* PROPS */, _hoisted_4)]);
 }
 
 /***/ }),
