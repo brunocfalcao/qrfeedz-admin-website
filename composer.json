@@ -2,7 +2,10 @@
     "name": "brunocfalcao/qrfeedz-admin-website",
     "type": "project",
     "description": "QRFeedz admin website",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "repositories": [
         {
@@ -29,6 +32,10 @@
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/NovaAddressFinder"
         }
     ],
     "require": {
@@ -37,7 +44,8 @@
         "laravel/framework": "^10.10",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/nova": "^4.27",
-        "php": "^8.1"
+        "php": "^8.1",
+        "brunocfalcao/nova-address-finder": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
