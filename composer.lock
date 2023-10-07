@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72f9f80b6fcca6b4870477977e09e66c",
+    "content-hash": "c57ef4c092c309f1808798661be15eac",
     "packages": [
         {
             "name": "brick/math",
@@ -190,7 +190,10 @@
             "autoload": {
                 "psr-4": {
                     "Brunocfalcao\\LaravelHelpers\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -218,13 +221,15 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "4715193e402a53523c3af9b90a364a1bfcf973ab"
+                "reference": "daaab06168364768ed75c888e90cdbeb4071174e"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "illuminate/contracts": "^10.0",
-                "php": "^8.1"
+                "php": "^8.1",
+                "titasgailius/search-relations": "^2.0",
+                "trinityrank/google-map-with-autocomplete": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -269,7 +274,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "53541014498c5a1deaf12c63a2d3d7eb82d8804f"
+                "reference": "faa938a8b66b8983faad9258852acc6ee6e87168"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -319,7 +324,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-foundation",
-                "reference": "bcc24240f6f46086816a32195ff4f597f33d5a74"
+                "reference": "ef8cacbcd0528d3d35bf0dc07cb37c54143c060e"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -364,7 +369,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "aefcce16e879f87f3ba5f8637f2c09be333d8f4a"
+                "reference": "a78a63746e175d13aa10e490f0767acb4c528447"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
