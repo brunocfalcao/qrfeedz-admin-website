@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c57ef4c092c309f1808798661be15eac",
+    "content-hash": "6f7aec4734e47e542300f55b57b5495b",
     "packages": [
         {
             "name": "brick/math",
@@ -172,7 +172,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "ecd0b151d2b0542c866ba840a15ad47e03b8ed0b"
+                "reference": "fd8f5bcbd091a749114e234934d135b8d04ab096"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -221,7 +221,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "4809f860d3049a422bd08401b121163eaa93f060"
+                "reference": "67b5fb7e16efae4874432f37bb8bcfa4a3b1017d"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -274,7 +274,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "103bd95b02a4bbb955288baad2aeefb85e909e1d"
+                "reference": "60f5919ac56788d0e5b9133066d7317e25ad96fb"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -369,7 +369,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "eca106d702247976a6150a47f705dbeefa03149c"
+                "reference": "8909e104c2c277cf0728e842b78ff5cad732111a"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
