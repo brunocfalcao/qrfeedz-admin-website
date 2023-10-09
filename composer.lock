@@ -172,7 +172,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "fd8f5bcbd091a749114e234934d135b8d04ab096"
+                "reference": "652cf2463ac9a816c35c14b1ff6ba4d1cb64e739"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -216,14 +216,64 @@
             }
         },
         {
+            "name": "brunocfalcao/laravel-nova-helpers",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-nova-helpers",
+                "reference": "f911e306346458ddbe88530c6f9803103d28b887"
+            },
+            "require": {
+                "brunocfalcao/laravel-helpers": "dev-master",
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Brunocfalcao\\LaravelNovaHelpers\\LaravelNovaHelpersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Brunocfalcao\\LaravelNovaHelpers\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Nova Helpers - Swiss army knife to complement your Laravel Nova Admin",
+            "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-nova-helpers",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "brunocfalcao/qrfeedz-admin",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "67b5fb7e16efae4874432f37bb8bcfa4a3b1017d"
+                "reference": "62d55eeff4963f948718e2b72b6ed4282c314b79"
             },
             "require": {
+                "brunocfalcao/laravel-nova-helpers": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "illuminate/contracts": "^10.0",
@@ -274,7 +324,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "60f5919ac56788d0e5b9133066d7317e25ad96fb"
+                "reference": "e290b3f75cb6728c2ef4c67741a08390ff627f79"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -369,7 +419,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "8909e104c2c277cf0728e842b78ff5cad732111a"
+                "reference": "508caaa9e1f2de21f4cb2c162c81f2f64c7dfe24"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
