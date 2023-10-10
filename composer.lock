@@ -221,7 +221,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-nova-helpers",
-                "reference": "f911e306346458ddbe88530c6f9803103d28b887"
+                "reference": "6fd26f7ff3c41bb0ac0963010ee1c99bdcef4465"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "62d55eeff4963f948718e2b72b6ed4282c314b79"
+                "reference": "5d5b3cc8afbbcc8884a9a868f369c9f0218c24fe"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -292,10 +292,7 @@
             "autoload": {
                 "psr-4": {
                     "QRFeedz\\Admin\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
+                }
             },
             "license": [
                 "MIT"
@@ -324,7 +321,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "e290b3f75cb6728c2ef4c67741a08390ff627f79"
+                "reference": "f26d53ff7d2fc7427e7c5bcad7ab41442bd16340"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -419,7 +416,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "508caaa9e1f2de21f4cb2c162c81f2f64c7dfe24"
+                "reference": "4dd9093c3fdbfdefde267fbe8a8079b0273d9af8"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -691,16 +688,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "00d03067f07482f025d41ab55e4ba0db5eca2cdf"
+                "reference": "5b7bd66c9ff58c04c5474ab85edce442f8081cb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/00d03067f07482f025d41ab55e4ba0db5eca2cdf",
-                "reference": "00d03067f07482f025d41ab55e4ba0db5eca2cdf",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5b7bd66c9ff58c04c5474ab85edce442f8081cb2",
+                "reference": "5b7bd66c9ff58c04c5474ab85edce442f8081cb2",
                 "shasum": ""
             },
             "require": {
@@ -784,7 +781,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.7.0"
+                "source": "https://github.com/doctrine/dbal/tree/3.7.1"
             },
             "funding": [
                 {
@@ -800,7 +797,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-26T20:56:55+00:00"
+            "time": "2023-10-06T05:06:20+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -7929,16 +7926,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.13.2",
+            "version": "v1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "bbb13460d7f8c5c0cd9a58109beedd79cd7331ff"
+                "reference": "93b2d0d49719bc6e444ba21cd4dbbccec935413d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
-                "reference": "bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/93b2d0d49719bc6e444ba21cd4dbbccec935413d",
+                "reference": "93b2d0d49719bc6e444ba21cd4dbbccec935413d",
                 "shasum": ""
             },
             "require": {
@@ -7949,7 +7946,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.26.1",
+                "friendsofphp/php-cs-fixer": "^3.34.1",
                 "illuminate/view": "^10.23.1",
                 "laravel-zero/framework": "^10.1.2",
                 "mockery/mockery": "^1.6.6",
@@ -7991,7 +7988,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2023-09-19T15:55:02+00:00"
+            "time": "2023-10-10T15:39:09+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -8455,16 +8452,16 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "4ed813d16edb5a1ab0d7f4b1d116c37ee8cdf3c0"
+                "reference": "bf21cd15aa47fa4ec5d73bbc932005c70261efc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/4ed813d16edb5a1ab0d7f4b1d116c37ee8cdf3c0",
-                "reference": "4ed813d16edb5a1ab0d7f4b1d116c37ee8cdf3c0",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/bf21cd15aa47fa4ec5d73bbc932005c70261efc8",
+                "reference": "bf21cd15aa47fa4ec5d73bbc932005c70261efc8",
                 "shasum": ""
             },
             "require": {
@@ -8543,7 +8540,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-23T06:24:34+00:00"
+            "time": "2023-10-09T12:55:26+00:00"
         },
         {
             "name": "symfony/filesystem",
