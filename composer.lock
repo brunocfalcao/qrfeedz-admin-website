@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f7aec4734e47e542300f55b57b5495b",
+    "content-hash": "044a9c4a626589f1afa2e93d8c9b941a",
     "packages": [
         {
             "name": "brick/math",
@@ -275,8 +275,8 @@
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
-                "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "illuminate/contracts": "^10.0",
+                "laravel/nova": "^4.27",
                 "php": "^8.1",
                 "titasgailius/search-relations": "^2.0",
                 "trinityrank/google-map-with-autocomplete": "^1.0"

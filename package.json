@@ -5,7 +5,9 @@
         "dev": "vite",
         "build": "vite build",
         "build-nova-address-finder": "cd nova-components/NovaAddressFinder && npm run dev",
-        "build-nova-address-finder-prod": "cd nova-components/NovaAddressFinder && npm run prod"
+        "build-nova-address-finder-prod": "cd nova-components/NovaAddressFinder && npm run prod",
+        "build-qrfeedz-admin-theme": "cd nova-components/QrfeedzAdminTheme && npm run dev",
+        "build-qrfeedz-admin-theme-prod": "cd nova-components/QrfeedzAdminTheme && npm run prod"
     },
     "devDependencies": {
         "axios": "^1.1.2",
