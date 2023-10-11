@@ -221,7 +221,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-nova-helpers",
-                "reference": "6fd26f7ff3c41bb0ac0963010ee1c99bdcef4465"
+                "reference": "560d95d49df1459f621cde9fd42143cc61551bec"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "5d5b3cc8afbbcc8884a9a868f369c9f0218c24fe"
+                "reference": "d960190ef5394bf9f066d653183fd1ac428585c9"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -321,7 +321,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "f26d53ff7d2fc7427e7c5bcad7ab41442bd16340"
+                "reference": "9d140a2a53b2d64e5dd832e8c2482fd909a5432c"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -2175,17 +2175,17 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.27.13",
+            "version": "4.27.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "4cf69423af62a2e98329b5e1ea01c955230071ff"
+                "reference": "e49202a34fdbdfcc857f60df8cb76da89dff0a7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-4cf69423af62a2e98329b5e1ea01c955230071ff-zip-492d5a.zip",
-                "reference": "4cf69423af62a2e98329b5e1ea01c955230071ff",
-                "shasum": "009dbb6d54ed08c4f56636bb1a7ed1c9e7b8671b"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-e49202a34fdbdfcc857f60df8cb76da89dff0a7c-zip-fc0f64.zip",
+                "reference": "e49202a34fdbdfcc857f60df8cb76da89dff0a7c",
+                "shasum": "5ce70233aefa671ec94706aa0ddeea5ae6b69a9c"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -2295,9 +2295,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.27.13"
+                "source": "https://github.com/laravel/nova/tree/v4.27.14"
             },
-            "time": "2023-09-19T17:29:43+00:00"
+            "time": "2023-10-10T20:43:10+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7425,16 +7425,16 @@
     "packages-dev": [
         {
             "name": "composer/pcre",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
                 "shasum": ""
             },
             "require": {
@@ -7476,7 +7476,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.0"
+                "source": "https://github.com/composer/pcre/tree/3.1.1"
             },
             "funding": [
                 {
@@ -7492,7 +7492,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-17T09:50:14+00:00"
+            "time": "2023-10-11T07:11:09+00:00"
         },
         {
             "name": "composer/semver",
