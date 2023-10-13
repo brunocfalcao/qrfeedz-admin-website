@@ -169,7 +169,7 @@ return [
     */
 
     'brand' => [
-        //'logo' => resource_path('/qrfeedz-admin/assets/'.env('NOVA_LOGO_FILENAME')),
+        'logo' => resource_path('/qrfeedz-admin/assets/'.env('NOVA_LOGO_FILENAME')),
 
         'colors' => [
             '400' => env('NOVA_COLOR_400'),
