@@ -221,7 +221,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-nova-helpers",
-                "reference": "c805f4c28c91473ffa857aadf18612abc930c972"
+                "reference": "21f9972ecefa0069122628db5a4ed435e53e1ee4"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "cf2f0bc8e1d354cbded5cf99d1a3f9c826e30b36"
+                "reference": "e89c446cbf7b0f17e91b0d44e124b0e07b18dc45"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -360,7 +360,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "486aa449d45958ad9f86fa324689fb99fa64a41b"
+                "reference": "0ef7be44795dec3167f6185d65c0526cbcb7ae15"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
