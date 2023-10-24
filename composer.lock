@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "32a4b5dbfcaab9c1438353b5432fcf148f04a4fb"
+                "reference": "310849a03de5ea7d33dd791a28558cef35f150bf"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -360,7 +360,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "dfafbbafa0218b22e5f3dfac85a167758a24a549"
+                "reference": "1d29249ad6a020048691995d0c1d4caa16e0c38c"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
