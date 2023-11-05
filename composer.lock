@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "5a9563c1966cde1a9384b673a6cd9d9dbd80c825"
+                "reference": "4e52f72f860867788ff4cf5f62980cad9ee0a45e"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -360,7 +360,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "c5ae49097aba8729a00dedaf2b3aeb583dd8ee66"
+                "reference": "e3a1e62b4c596d043330e41c2136ca1456b9a7c9"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -455,7 +455,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "9c3b7600320a61c3d558d6f177114a7badc7d226"
+                "reference": "44a26276c3126c000347204f09d2c8a0a38969be"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -7684,16 +7684,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.15.3",
+            "version": "2.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c83e88a30524f9360b11f585f71e6b17313b7187"
+                "reference": "a139776fa3f5985a50b509f2a02ff0f709d2a546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/c83e88a30524f9360b11f585f71e6b17313b7187",
-                "reference": "c83e88a30524f9360b11f585f71e6b17313b7187",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/a139776fa3f5985a50b509f2a02ff0f709d2a546",
+                "reference": "a139776fa3f5985a50b509f2a02ff0f709d2a546",
                 "shasum": ""
             },
             "require": {
@@ -7743,7 +7743,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.15.3"
+                "source": "https://github.com/filp/whoops/tree/2.15.4"
             },
             "funding": [
                 {
@@ -7751,7 +7751,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-13T12:00:00+00:00"
+            "time": "2023-11-03T12:00:00+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
