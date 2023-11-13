@@ -36,7 +36,7 @@ return [
     'mailers' => [
 
         'zeptomail' => [
-            'transport' => 'zeptomail'
+            'transport' => 'zeptomail',
         ],
 
         'smtp' => [
