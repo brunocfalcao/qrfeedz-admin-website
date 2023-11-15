@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "044a9c4a626589f1afa2e93d8c9b941a",
+    "content-hash": "25c0d455c0b45b140edecbeae665af00",
     "packages": [
         {
             "name": "brick/math",
@@ -172,7 +172,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "95161879db3173108b5cc8273c90c89b261e6c59"
+                "reference": "e544f1749798c58d3fdd4c387b06f16a71e03043"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-admin",
-                "reference": "8be9cf89600e981b17a463b194f83ee5cea55e14"
+                "reference": "3e7f54b4bdefb93f803fc8859249c640ffbc014b"
             },
             "require": {
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
@@ -364,6 +364,7 @@
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
+                "brunocfalcao/laravel-helpers": "dev-master",
                 "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "brunocfalcao/qrfeedz-migrations": "dev-master",
                 "brunocfalcao/qrfeedz-services": "dev-master",
@@ -2014,7 +2015,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "20085feef61119b58fef540cba79595b4a85a89a"
+                "reference": "c6aeffded35c10ac60b14d4cff4b6c45dc57e9ea"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -7755,16 +7756,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.38.0",
+            "version": "v3.38.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31"
+                "reference": "d872cdd543797ade030aaa307c0a4954a712e081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7e6070026e76aa09d77a47519625c86593fb8e31",
-                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d872cdd543797ade030aaa307c0a4954a712e081",
+                "reference": "d872cdd543797ade030aaa307c0a4954a712e081",
                 "shasum": ""
             },
             "require": {
@@ -7836,7 +7837,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.2"
             },
             "funding": [
                 {
@@ -7844,7 +7845,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-07T08:44:54+00:00"
+            "time": "2023-11-14T00:19:22+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
